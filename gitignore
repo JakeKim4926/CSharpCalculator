@@ -1,0 +1,83 @@
+# ============================
+# Build results
+# ============================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+*.log
+
+# ============================
+# User-specific files
+# ============================
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# ============================
+# Visual Studio working files
+# ============================
+.vs/
+.vscode/
+.idea/
+
+# ============================
+# Build artifacts
+# ============================
+*.dll
+*.exe
+*.pdb
+*.cache
+*.dbmdl
+*.mdb
+
+# ============================
+# ASP.NET / Blazor (무시 가능)
+# ============================
+wwwroot/
+publish/
+ScaffoldingReadMe.txt
+
+# ============================
+# Rider / ReSharper / NCrunch
+# ============================
+_ReSharper*/
+*.ncrunch*
+*.localhistory/
+
+# ============================
+# BenchmarkDotNet / Coverage
+# ============================
+BenchmarkDotNet.Artifacts/
+*.coverage
+*.coveragexml
+*.testresults
+
+# ============================
+# NuGet
+# ============================
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+artifacts/
+*.symbols.nupkg
+*.nuspec
+
+# ============================
+# Others
+# ============================
+*.tmp
+*.bak
+*.old
+*.orig
+*.sdf
+*.cache/
+*.db
+*.scc
+*.ipch
+*.aps
+*.ncb
+*.opendb
+*.VC.db
