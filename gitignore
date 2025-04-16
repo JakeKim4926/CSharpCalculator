@@ -18,9 +18,9 @@
 # ============================
 # Visual Studio working files
 # ============================
-.vs/
-.vscode/
-.idea/
+**/.vs/
+**/.vscode/
+**/.idea/
 
 # ============================
 # Build artifacts
@@ -81,3 +81,12 @@ artifacts/
 *.ncb
 *.opendb
 *.VC.db
+
+
+TestProject/.vs/
+*.db.lock
+*.ide-wal
+*.ide-shm
+*.suo
+*.pdb
+*.exe

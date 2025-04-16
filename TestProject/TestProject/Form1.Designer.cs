@@ -71,6 +71,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(116, 21);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -152,6 +153,7 @@
             this.button０.TabIndex = 12;
             this.button０.Text = "0";
             this.button０.UseVisualStyleBackColor = true;
+            this.button０.Click += new System.EventHandler(this.button０_Click);
             // 
             // button10
             // 

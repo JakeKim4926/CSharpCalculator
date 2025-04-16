@@ -23,5 +23,17 @@ namespace TestProject
 
         }
 
+        private void button０_Click(object sender, EventArgs e)
+        {
+            // test for commit
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public static string nowNum;
+        public static string inputNum;
     }
 }
