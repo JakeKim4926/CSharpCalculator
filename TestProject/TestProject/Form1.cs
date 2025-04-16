@@ -35,5 +35,6 @@ namespace TestProject
 
         public static string nowNum;
         public static string inputNum;
+        public static string helloFreakingWorld;
     }
 }

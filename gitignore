@@ -90,3 +90,9 @@ TestProject/.vs/
 *.suo
 *.pdb
 *.exe
+
+/TestProject/TestProject/bin/
+/TestProject/TestProject/obj/
+.vs/
+TestProject/.vs/
+TestProject/TestProject/.vs/
