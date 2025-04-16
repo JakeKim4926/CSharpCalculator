@@ -44,7 +44,7 @@
             this.buttonPoint = new System.Windows.Forms.Button();
             this.buttonResult = new System.Windows.Forms.Button();
             this.buttonMinus = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
+            this.buttonMultiply = new System.Windows.Forms.Button();
             this.buttonDivide = new System.Windows.Forms.Button();
             this.buttonPlus = new System.Windows.Forms.Button();
             this.buttonRoot = new System.Windows.Forms.Button();
@@ -67,10 +67,11 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(180, 99);
+            this.textBox1.Location = new System.Drawing.Point(52, 99);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(116, 21);
+            this.textBox1.Size = new System.Drawing.Size(244, 21);
             this.textBox1.TabIndex = 2;
+            this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // button1
             // 
@@ -189,6 +190,7 @@
             this.buttonResult.TabIndex = 17;
             this.buttonResult.Text = "=";
             this.buttonResult.UseVisualStyleBackColor = true;
+            this.buttonResult.Click += new System.EventHandler(this.buttonResult_Click);
             // 
             // buttonMinus
             // 
@@ -198,15 +200,17 @@
             this.buttonMinus.TabIndex = 18;
             this.buttonMinus.Text = "-";
             this.buttonMinus.UseVisualStyleBackColor = true;
+            this.buttonMinus.Click += new System.EventHandler(this.buttonMinus_Click);
             // 
-            // button11
+            // buttonMultiply
             // 
-            this.button11.Location = new System.Drawing.Point(250, 242);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(46, 37);
-            this.button11.TabIndex = 19;
-            this.button11.Text = "×";
-            this.button11.UseVisualStyleBackColor = true;
+            this.buttonMultiply.Location = new System.Drawing.Point(250, 242);
+            this.buttonMultiply.Name = "buttonMultiply";
+            this.buttonMultiply.Size = new System.Drawing.Size(46, 37);
+            this.buttonMultiply.TabIndex = 19;
+            this.buttonMultiply.Text = "×";
+            this.buttonMultiply.UseVisualStyleBackColor = true;
+            this.buttonMultiply.Click += new System.EventHandler(this.buttonMultiply_Click);
             // 
             // buttonDivide
             // 
@@ -216,6 +220,7 @@
             this.buttonDivide.TabIndex = 19;
             this.buttonDivide.Text = "÷";
             this.buttonDivide.UseVisualStyleBackColor = true;
+            this.buttonDivide.Click += new System.EventHandler(this.buttonDivide_Click);
             // 
             // buttonPlus
             // 
@@ -225,6 +230,7 @@
             this.buttonPlus.TabIndex = 20;
             this.buttonPlus.Text = "+";
             this.buttonPlus.UseVisualStyleBackColor = true;
+            this.buttonPlus.Click += new System.EventHandler(this.buttonPlus_Click);
             // 
             // buttonRoot
             // 
@@ -288,7 +294,7 @@
             this.buttonMod.Name = "buttonMod";
             this.buttonMod.Size = new System.Drawing.Size(46, 37);
             this.buttonMod.TabIndex = 25;
-            this.buttonMod.Text = "÷";
+            this.buttonMod.Text = "%";
             this.buttonMod.UseVisualStyleBackColor = true;
             // 
             // Form1
@@ -305,7 +311,7 @@
             this.Controls.Add(this.buttonRoot);
             this.Controls.Add(this.buttonPlus);
             this.Controls.Add(this.buttonDivide);
-            this.Controls.Add(this.button11);
+            this.Controls.Add(this.buttonMultiply);
             this.Controls.Add(this.buttonMinus);
             this.Controls.Add(this.buttonResult);
             this.Controls.Add(this.buttonPoint);
@@ -347,7 +353,7 @@
         private System.Windows.Forms.Button buttonPoint;
         private System.Windows.Forms.Button buttonResult;
         private System.Windows.Forms.Button buttonMinus;
-        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button buttonMultiply;
         private System.Windows.Forms.Button buttonDivide;
         private System.Windows.Forms.Button buttonPlus;
         private System.Windows.Forms.Button buttonRoot;
