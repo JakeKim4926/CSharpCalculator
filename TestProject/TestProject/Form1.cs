@@ -23,9 +23,5 @@ namespace TestProject
 
         }
 
-        private void buttonNum1_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }

@@ -10,3 +10,4 @@ D:\TestProject\TestProject\TestProject\obj\Debug\TestProject.pdb
 D:\TestProject\bin\TestProject.exe.config
 D:\TestProject\bin\TestProject.exe
 D:\TestProject\bin\TestProject.pdb
+D:\TestProject\TestProject\TestProject\obj\Debug\TestProject.Form1.resources
